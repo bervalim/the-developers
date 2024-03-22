@@ -1,1 +1,9 @@
-<p>developers-section works!</p>
+<section>
+  <ul>
+    <app-developers-card
+      *ngFor="let developer of developersList"
+      [developer]="developer"
+    >
+    </app-developers-card>
+  </ul>
+</section>
