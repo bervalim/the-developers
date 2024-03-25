@@ -1,7 +1,7 @@
 .developer__card {
   img {
     width: 100%;
-    max-width: 230px;
+    max-width: 240px;
     border-radius: 40px;
   }
 
@@ -12,5 +12,9 @@
 
   p {
     margin-bottom: 50px;
+    width: 100%;
+    max-width: 200px;
+    line-height: 25px;
+    font-size: clamp(0.7rem, 4vw, 0.9rem);
   }
 }

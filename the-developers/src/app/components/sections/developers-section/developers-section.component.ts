@@ -14,22 +14,22 @@ export class DevelopersSectionComponent {
     {
       image: 'assets/Developer1.jpg',
       name: 'Josefine',
-      description: 'Lorem ipsum dolor sit amett',
+      description: 'Front-end dev: HTML, CSS, JS.',
     },
     {
       image: 'assets/Developer2.jpg',
       name: 'Rudolf',
-      description: 'Lorem ipsum dolor sit amett',
+      description: 'Versatile dev: JS, Python, PHP.',
     },
     {
       image: 'assets/Developer3.jpg',
       name: 'Lucy',
-      description: 'Lorem ipsum dolor sit amett',
+      description: 'Full-stack dev: React, Angular, JAVA, SQL.',
     },
     {
       image: 'assets/Developer4.jpg',
       name: 'Robert',
-      description: 'Lorem ipsum dolor sit amett',
+      description: 'Full-stack dev: React, Angular, Node, SQL.',
     },
   ];
 }
