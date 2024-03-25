@@ -1,0 +1,24 @@
+:root {
+  --font-primary: "Inter", sans-serif;
+  --color-white: #fff;
+  --color-blue: #7e9bff;
+  --color-black: #000000;
+  --color-yellow: #fdff88;
+  --color-grey: #fafafa;
+}
+
+.section__white {
+  background-color: var(--color-white);
+}
+
+.section__blue {
+  background-color: var(--color-blue);
+}
+
+.section__black {
+  background-color: var(--color-black);
+}
+
+.section__grey {
+  background-color: var(--color-grey);
+}
