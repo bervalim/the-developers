@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 10px;
   font-family: var(--font-primary);
-  font-size: 0.8rem;
+  font-size:clamp(0.6rem,4vw,0.8rem);
   font-weight: 400;
   transition: 0.4s;
   border: 1px solid;

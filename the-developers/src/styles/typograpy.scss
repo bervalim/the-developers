@@ -1,6 +1,6 @@
 .title {
   font-family: var(--font-primary);
-  font-size: 2.6875rem;
+  font-size: clamp(2.1rem, 3vw, 2.6875rem);
   font-weight: 700;
   color: var(--color-black);
 
@@ -9,17 +9,17 @@
   }
 
   &.md.black {
-    font-size: 2rem;
+    font-size: clamp(1, 5rem, 3vw, 2rem);
   }
 
   &.sm.blue {
     color: var(--color-blue);
-    font-size: 0.875rem;
+    font-size: clamp(0.6rem, 3vw, 0.875rem);
   }
 
   &.sm.black {
     color: var(--color-black);
-    font-size: 0.875rem;
+    font-size: clamp(0.6rem, 3vw, 0.875rem);
   }
 }
 
@@ -27,13 +27,13 @@
   font-family: var(--font-primary);
   font-weight: 400;
   color: var(--color-black);
-  font-family: 1rem;
+  font-size: clamp(0.8rem, 3vw, 1rem);
 
   &.white {
     color: var(--color-white);
   }
 
   &.md {
-    font-size: 0.75rem;
+    font-size: clamp(0.6rem, 3vw, 0.8rem);
   }
 }
