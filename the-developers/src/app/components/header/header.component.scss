@@ -1,0 +1,15 @@
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+
+  #contact_btn {
+    font-size: clamp(0.6rem, 4vw, 0.8rem);
+  }
+  @media (min-width: 480px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
