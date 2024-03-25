@@ -1,0 +1,12 @@
+.developers__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 420px) {
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+}
