@@ -22,3 +22,8 @@
 .section__grey {
   background-color: var(--color-grey);
 }
+
+.logo > img {
+  width: 100%;
+  max-width: 147px;
+}

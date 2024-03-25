@@ -16,7 +16,7 @@
   border-radius: 255px;
   background-color: var(--color-white);
   border: 1px solid var(--color-black);
-  padding: 0 16px;
+  padding: 0 35px;
   height: 2.875rem;
 
   &:hover {
@@ -25,9 +25,9 @@
 
   &.yellow {
     background-color: var(--color-yellow);
-    border: 2px solid var(--color-black);
+    border: 2px solid var(--color-yellow);
     height: 51px;
-    padding: 0 19px;
+    padding: 0 47px;
 
     &:hover {
       filter: brightness(1.2);
