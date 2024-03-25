@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 10px;
   font-family: var(--font-primary);
-  font-size:clamp(0.6rem,4vw,0.8rem);
+  font-size: clamp(0.6rem, 4vw, 0.8rem);
   font-weight: 400;
   transition: 0.4s;
   border: 1px solid;
@@ -20,7 +20,8 @@
   height: 2.875rem;
 
   &:hover {
-    filter: brightness(1.2);
+    background-color: var(--color-black);
+    color: var(--color-white);
   }
 
   &.yellow {
@@ -30,7 +31,8 @@
     padding: 0 47px;
 
     &:hover {
-      filter: brightness(1.2);
+      background-color: #fcc419;
+      color: var(--color-black);
     }
   }
 }
